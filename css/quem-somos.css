@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: sans-serif;
+    background: rgb(240, 239, 239);
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    background-image: url("../img/img-gerais/fundo-header.webp");
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 40px;
+}
+
+.header img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px white;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    width: 30%;
+    padding: 25px;
+    text-align: -webkit-center;
+    border-right: 10px solid green;
+}
+
+.navbar li {
+    list-style: none; 
+}
+
+.navbar li a {
+    text-decoration: none;
+    background-color: green;
+    display: block;
+    padding: 15px;
+    margin: 13.4px;
+    width: 150px;
+    border-radius: 75% 25% 75% 25% / 0% 100% 0% 100%;
+    color: white;
+}
+
+.content {
+    width: 70%;
+   padding: 30px;
+}
+
+.quem-somos {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-right: 50px;
+}
+
+.content p {
+    line-height: 25px;
+
+}
+
+.footer {
+    background-color: green;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer img {
+    width: 30px;
+    margin: 0 10px;
+    padding-top: 6px;
+}
